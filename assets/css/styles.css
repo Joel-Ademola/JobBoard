@@ -1,0 +1,30 @@
+.btn-group-vertical > .btn-check:checked + .btn, .btn-group-vertical > .btn-check:focus + .btn, .btn-group-vertical > .btn.active, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:hover, .btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:focus + .btn, .btn-group > .btn.active, .btn-group > .btn:active, .btn-group > .btn:focus, .btn-group > .btn:hover {
+  z-index: 1;
+  background: transparent;
+  border: 1.2px solid #0a8cff;
+}
+
+.btn:hover {
+  color: #00d363;
+  background: transparent;
+  border: 1px solid #00d363;
+}
+
+.features-boxed .item .description span {
+  background: #e6f3ff;
+  color: #0a8cff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 17px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #00d363;
+  border-color: #00d363;
+}
+
